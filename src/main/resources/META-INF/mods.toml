@@ -5,12 +5,11 @@ license = "All Rights Reserved"
 modId = "poscendo"
 version = "${file.jarVersion}"
 displayName = "Poscendo"
-#updateJSONURL="https://change.me.example.invalid/updates.json"
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
-#logoFile="alchemistry.png"
-#credits="Thanks for this example mod goes to Java"
-#authors="Love, Cheese and small house plants"
-#displayTest="MATCH_VERSION"
+updateJSONURL="https://api.modrinth.com/updates/poscendo/forge_updates.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/poscendo/"
+logoFile="logo.png"
+credits="Art and logo done by _JWX!"
+authors="MiteBeMana"
 
 description = '''
 A configurable clientside mod adding various tweaks to potions.

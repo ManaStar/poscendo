@@ -4,7 +4,6 @@ import com.simibubi.create.AllFluids;
 import com.simibubi.create.content.contraptions.fluids.potion.PotionFluid;
 import com.simibubi.create.content.contraptions.fluids.potion.PotionFluidHandler;
 import com.simibubi.create.foundation.utility.NBTHelper;
-import io.github.ManaStar.poscendo.Poscendo;
 import io.github.ManaStar.poscendo.core.PoscendoConfig;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

@@ -1,6 +1,5 @@
 package io.github.ManaStar.poscendo.core.mixin;
 
-import io.github.ManaStar.poscendo.Poscendo;
 import io.github.ManaStar.poscendo.core.PoscendoConfig;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ArrowItem;

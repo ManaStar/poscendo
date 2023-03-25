@@ -1,7 +1,5 @@
 package io.github.ManaStar.poscendo.core.mixin;
 
-import io.github.ManaStar.poscendo.Poscendo;
-import io.github.ManaStar.poscendo.core.PoscendoConfig;
 import net.minecraft.world.effect.MobEffects;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

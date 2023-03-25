@@ -1,0 +1,10 @@
+// 1.19.2	2023-03-24T00:57:55.6056618	Item Models: poscendo
+5215ceaf7a3125542c4a8c479168547fc2ee8bee assets/minecraft/models/item/lingering_potion.json
+79d75abdd1c1f0f902d5aa78564cf30bddafd1fe assets/minecraft/models/item/potion.json
+4c673fb5830f5c7826771bf3c5859878aac97f80 assets/minecraft/models/item/splash_potion.json
+aef92a4d854b60cbc1a4e5d7696f45b1984dbe8c assets/poscendo/models/item/long_lingering_potion.json
+bb069556fe12fc10a6345024b0c38725f05d4ac9 assets/poscendo/models/item/long_potion.json
+b9a45478daab4370bbf4da42d4624741e8ef2f40 assets/poscendo/models/item/long_splash_potion.json
+1d0ee7d29765cf73616b86ab35d9db63e208b8cb assets/poscendo/models/item/strong_lingering_potion.json
+817d9ab9996a4c6d46bd00d7e369db83efe8370d assets/poscendo/models/item/strong_potion.json
+0b57028764affdae9f9f388132742ea648f0c0b5 assets/poscendo/models/item/strong_splash_potion.json

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "poscendo:item/long_splash_potion",
+      "predicate": {
+        "poscendo:potion": 0.5
+      }
+    },
+    {
+      "model": "poscendo:item/strong_splash_potion",
+      "predicate": {
+        "poscendo:potion": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/potion_overlay",
+    "layer1": "minecraft:item/splash_potion"
+  }
+}

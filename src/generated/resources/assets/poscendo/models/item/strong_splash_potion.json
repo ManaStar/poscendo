@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "poscendo:item/strong_potion_overlay",
+    "layer1": "poscendo:item/strong_splash_potion"
+  }
+}

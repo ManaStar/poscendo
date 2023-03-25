@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.ManaStar.poscendo.core.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "poscendo.refmap.json",
+  "mixins": [],
+  "client": [
+    "PotionItemMixin",
+    "MobEffectsMixin",
+    "CreatePotionFluidTypeMixin",
+    "TippedArrowItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

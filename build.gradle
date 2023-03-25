@@ -15,7 +15,7 @@ plugins {
 apply plugin: 'org.spongepowered.mixin'
 
 group = 'io.github.ManaStar'
-version = '1.0.0-beta1'
+version = "${mc_version}-${mod_version}"
 
 java {
     archivesBaseName = 'Poscendo'
@@ -23,7 +23,7 @@ java {
 }
 
 minecraft {
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: 'official', version: "${mc_version}"
     runs {
         client {
             workingDirectory project.file('run')
@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.7'
+    minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
     //Compat
     compileOnly fg.deobf("curse.maven:create-328085:4371809")

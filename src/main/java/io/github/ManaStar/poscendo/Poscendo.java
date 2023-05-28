@@ -44,9 +44,9 @@ public class Poscendo {
             Potion potion = PotionUtils.getPotion(stack);
 
             if (PoscendoConfig.REFINED_POTION_BOTTLES.get()) {
-                if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("long")) {
+                if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("long")) {
                     return 0.5F;
-                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("strong")) {
+                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("strong")) {
                     return 1.0F;
                 }
             }
@@ -57,9 +57,9 @@ public class Poscendo {
             Potion potion = PotionUtils.getPotion(stack);
 
             if (PoscendoConfig.REFINED_POTION_BOTTLES.get()) {
-                if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("long")) {
+                if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("long")) {
                     return 0.5F;
-                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("strong")) {
+                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("strong")) {
                     return 1.0F;
                 }
             }
@@ -70,9 +70,9 @@ public class Poscendo {
             Potion potion = PotionUtils.getPotion(stack);
 
             if (PoscendoConfig.REFINED_POTION_BOTTLES.get()) {
-                if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("long")) {
+                if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("long") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("long")) {
                     return 0.5F;
-                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().toString().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().toString().endsWith("strong")) {
+                } else if (ForgeRegistries.POTIONS.getKey(potion).getPath().startsWith("strong") || ForgeRegistries.POTIONS.getKey(potion).getPath().endsWith("strong")) {
                     return 1.0F;
                 }
             }

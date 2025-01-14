@@ -19,13 +19,6 @@ public abstract class PotionItemMixin extends Item {
         super(properties);
     }
 
-    @Inject(method = "isFoil", at = @At("HEAD"), cancellable = true)
-    public void isFoil(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
-        if (PoscendoConfig.REMOVE_POTION_GLINT.get()) {
-            cir.setReturnValue(false);
-        }
-    }
-
     @Override
     @NotNull
     public Component getName(@NotNull ItemStack stack) {

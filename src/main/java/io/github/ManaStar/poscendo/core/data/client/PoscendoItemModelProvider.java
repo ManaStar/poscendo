@@ -10,7 +10,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class PoscendoItemModelProvider extends ItemModelProvider {
     public PoscendoItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
-        super(generator, Poscendo.MODID, existingFileHelper);
+        super(generator.getPackOutput(), Poscendo.MODID, existingFileHelper);
     }
 
     @Override

@@ -3,7 +3,7 @@ package io.github.ManaStar.poscendo.core.mixin;
 import com.simibubi.create.AllFluids;
 import com.simibubi.create.content.fluids.potion.PotionFluid;
 import com.simibubi.create.content.fluids.potion.PotionFluidHandler;
-import com.simibubi.create.foundation.utility.NBTHelper;
+import net.createmod.catnip.nbt.NBTHelper;
 import io.github.ManaStar.poscendo.core.PoscendoConfig;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;

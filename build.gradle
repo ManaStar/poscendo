@@ -96,13 +96,20 @@ repositories {
     maven {
         url "https://maven.jaackson.me"
     }
+    maven {
+        // location of ponder, library used by create
+        name = "Create Mod Maven"
+        url = "https://maven.createmod.net"
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
 
     //Compat
-    compileOnly fg.deobf("curse.maven:create-328085:5838779")
+    compileOnly fg.deobf("com.simibubi.create:create-${mc_version}:${create_version}")
+    // library used by create
+    compileOnly(fg.deobf("net.createmod.ponder:Ponder-Forge-${mc_version}:${ponder_version}"))
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
